@@ -1,0 +1,26 @@
+normalize state structure react.memo
+
+Normolazation
+--Recommended in docs
+--No dupication of data 
+-- Creates an ID lloup
+State Shape 
+{
+    posts:
+    {
+        ids:[1,2,3,4,5...],
+        entities:{
+
+            "1:{
+    userId:1,
+    id:1
+    title:...etc
+}        }
+    }
+}
+
+createEntityAdapter API
+Abstracts more logic from components 
+--Built in CRUD methods
+-Automatic selector generation
+
